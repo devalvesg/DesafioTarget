@@ -11,7 +11,7 @@ public class DescubraLogica {
 			System.out.print(", ");
 			a = a + 2;
 		}
-		//RESPOSTA É 9
+		//RESPOSTA É 9, pois a sequência segue a base dos numeros impares
 		
 		System.out.println();
 		
@@ -22,7 +22,7 @@ public class DescubraLogica {
 			System.out.print(", ");
 			b = b * 2;
 		}
-		//RESPOSTA É 128
+		//RESPOSTA É 128, pois é a base da potência de 2
 		
 		System.out.println();
 		
@@ -35,7 +35,7 @@ public class DescubraLogica {
 			System.out.print(c);
 			System.out.print(", ");
 		}
-		//RESPOSTA É 49
+		//RESPOSTA É 49, pois ele tem um adicional de um numero impar crescente a cada numero da sequência
 		
 		System.out.println();
 		
@@ -49,7 +49,7 @@ public class DescubraLogica {
 			d = pa + d;
 			pa = pa + 8;
 		}
-		//REPOSTA É 100
+		//REPOSTA É 100, pois nesse caso ocorre a Progressão Aritmética de 8
 		
 		System.out.println();
 		
@@ -63,5 +63,12 @@ public class DescubraLogica {
 		    System.out.print(num1);
 		    System.out.print(", ");
 		}
+		/* RESPOSTA É 13, pois nesse caso é a sequencia de Fibonacci, no qual se pega os dois ultimos numeros e 
+		soma para obter o resultado do proximo */
+		
+		System.out.println();
+		
+		//SEXTA LÓGICA
+		//A RESPOSTA É 200, pois todos os numeros descritos começam com a Letra D
 	}
 }
