@@ -13,5 +13,6 @@ public class ValorDaVariavel {
 		
 		System.out.println(Soma);
 		
+		//RESPOSTA: O valor da variavel soma é 91.
 	}
 }
